@@ -1,0 +1,90 @@
+nav {
+  background-color: purple;
+  display: flex;
+  justify-content: flex-end;
+  flex-grow: 1;
+}
+
+nav ul {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+  text-align: right;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: green;
+  justify-content: space-between;
+  flex-basis: 400px;
+}
+
+nav li {
+  background-color: yellow;
+  padding: 5px;
+  margin: 5px;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+  background-color: cyan;
+}
+
+header {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+h1 {
+  margin: 0;
+  flex-basis: 300px;
+  flex-shrink: 0;
+}
+
+main {
+  padding: 20px;
+}
+
+main section {
+  flex-basis: 500px;
+  flex-grow: 1;
+}
+
+.pet {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.pet div:first-of-type {
+  flex-basis: 52%;
+  padding-left: 16px;
+}
+
+.pet div:last-of-type {
+  display: flex;
+  flex-basis: 100%;
+  text-align: center;
+  margin: 10px 0;
+}
+
+.pet div:last-of-type a {
+  flex-grow: 1;
+  padding: 10px;
+  background-color: orange;
+  border: 1px solid black;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+main .container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+h2 {
+  margin: 0;
+}
